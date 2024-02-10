@@ -7,7 +7,7 @@ import ParticleImage, {
   forces,
 } from "react-particle-image"
 
-const STEP = 30
+const STEP = 9
 
 const round = (n: number, step = 20) => Math.ceil(n / step) * step
 
@@ -54,7 +54,7 @@ function App() {
         src={"/me.png"}
         width={Number(innerWidth)}
         height={Number(innerHeight)}
-        scale={0.5}
+        scale={0.3}
         entropy={5}
         maxParticles={60000}
         particleOptions={particleOptions}
