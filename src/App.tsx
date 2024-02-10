@@ -56,7 +56,7 @@ function App() {
         height={Number(innerHeight)}
         scale={0.3}
         entropy={5}
-        maxParticles={60000}
+        maxParticles={20000}
         particleOptions={particleOptions}
         mouseMoveForce={motionForce}
         touchMoveForce={motionForce}
