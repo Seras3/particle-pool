@@ -54,7 +54,7 @@ function App() {
         src={"/me.png"}
         width={Number(innerWidth)}
         height={Number(innerHeight)}
-        scale={0.7}
+        scale={0.5}
         entropy={5}
         maxParticles={60000}
         particleOptions={particleOptions}
